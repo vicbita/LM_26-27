@@ -1,0 +1,21 @@
+body {
+    background-color: bisque;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#titulo-principal {
+    color: rgb(68, 68, 68);
+    text-align: center;
+}
+
+.caja{
+    width: 70%;
+    margin: 20px;
+    padding: 5%;
+    border: 10px solid rgb(243, 86, 86);
+}
+
+#caja-dos{
+    background-color: coral;
+    border: 15px dashed darkblue;
+}
