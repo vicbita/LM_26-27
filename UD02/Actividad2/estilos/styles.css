@@ -1,0 +1,70 @@
+body{
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight:500;
+  font-size: 120%;
+  color: rgb(68, 68, 68);
+  
+}
+.container {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 3fr 2fr;
+  gap: 0px 3px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "CajaLogo1 CajaLogo2 CajaLogo3 CajaLogo4 CajaLogo5"
+    "TextLogo1 TextLogo2 TextLogo3 TextLogo4 TextLogo5";
+}
+
+.CajaLogo1 { grid-area: CajaLogo1; }
+
+.CajaLogo2 { grid-area: CajaLogo2; }
+
+.CajaLogo3 { grid-area: CajaLogo3; }
+
+.CajaLogo4 { grid-area: CajaLogo4; }
+
+.CajaLogo5 { grid-area: CajaLogo5; }
+
+.TextLogo1 { grid-area: TextLogo1; }
+
+.TextLogo2 { grid-area: TextLogo2; }
+
+.TextLogo3 { grid-area: TextLogo3; }
+
+.TextLogo4 { grid-area: TextLogo4; }
+
+.TextLogo5 { grid-area: TextLogo5; }
+
+.CajaLogo1, .CajaLogo2, .CajaLogo3, .CajaLogo4, .CajaLogo5{
+  position: relative;
+}
+
+
+.CirculoGris{
+  background-color: rgb(219, 219, 219);
+  border-radius: 50%;
+  width: 70%;
+  height: 70%;
+  margin-top: -15%;
+}
+.imagen{
+  padding: 24%;
+  width: 50%;
+  height: auto;
+}
+
+.CirculoRojo {
+  background-color: rgb(253, 97, 97);
+  border-radius: 50%;
+  width: 25%;
+  height: 25%;
+  text-align: center;
+}
+
+.numero{
+  padding-top: 15%;
+  color: aliceblue;
+  font-size: 220%;
+}
+
