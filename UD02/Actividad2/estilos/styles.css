@@ -55,6 +55,8 @@ body{
 }
 
 .CirculoRojo {
+  position: relative;
+  z-index: 2;
   background-color: rgb(253, 97, 97);
   border-radius: 50%;
   width: 25%;
