@@ -1,0 +1,54 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1.5fr 1.5fr;
+    grid-auto-columns: 1fr;
+    gap: 35px 35px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "Pista1 Pista2 Pista3"
+        "Pista4 Pista5 Pista6";
+}
+
+.Pista1 { grid-area: Pista1; }
+.Pista2 { grid-area: Pista2; }
+.Pista3 { grid-area: Pista3; }
+.Pista4 { grid-area: Pista4; }
+.Pista5 { grid-area: Pista5; }
+.Pista6 { grid-area: Pista6; }
+
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #143027;
+    color: white;
+    text-align: center;
+}
+
+header, footer {
+    padding: 20px;
+    background-color: #19382d;
+}
+
+.pista {
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #38634b;
+}
+
+.libre {
+    background-color: #24583e;
+}
+
+.reservada {
+    background-color: #744343;
+}
+
+button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
