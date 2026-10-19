@@ -35,15 +35,26 @@ header, footer {
     padding: 20px;
     border-radius: 10px;
     border: 2px solid #38634b;
+    background-image: url("photo/pista.png");
+    background-size: cover;
+    background-position: center;
 }
 
+
+
 .libre {
-    background-color: #24583e;
+    background-image: linear-gradient(rgba(36, 88, 62, 0.45), rgba(36, 88, 62, 0.45)), url("photo/pista.png");
+    background-size: cover;
+    background-position: center;
 }
 
 .reservada {
-    background-color: #744343;
+    background-image: linear-gradient(rgba(116, 40, 40, 0.55), rgba(116, 40, 40, 0.55)), url("photo/pista.png");
+    background-size: cover;
+    background-position: center;
 }
+
+
 
 button {
     padding: 8px 12px;
