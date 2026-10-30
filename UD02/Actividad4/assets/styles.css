@@ -26,9 +26,13 @@ body {
     text-align: center;
 }
 
-header, footer {
+header {
     padding: 20px;
     background-color: #19382d;
+}
+
+footer{
+    padding-top: 40px;
 }
 
 .pista {
@@ -39,16 +43,19 @@ header, footer {
     background-size: cover;
     background-position: center;
 }
+.pista:hover{
+    transform: translateY(-4px); /*robado de compañero abiol */
+}
 
 
 
-.libre {
-    background-image: linear-gradient(rgba(36, 88, 62, 0.45), rgba(36, 88, 62, 0.45)), url("photo/pista.png");
+.libre {/*hecho con chat gepeta*/
+    background-image: linear-gradient(rgba(36, 88, 62, 0.45), rgba(36, 88, 62, 0.45)), url("photo/pista.png"); 
     background-size: cover;
     background-position: center;
 }
 
-.reservada {
+.reservada {/*hecho con chat gepeta*/
     background-image: linear-gradient(rgba(116, 40, 40, 0.55), rgba(116, 40, 40, 0.55)), url("photo/pista.png");
     background-size: cover;
     background-position: center;
@@ -61,5 +68,9 @@ button {
     border: none;
     border-radius: 8px;
     cursor: pointer;
+    font-family: 'Poppins', sans-serif;
 }
 
+button:disabled{ /*robado de alioli*/
+    cursor:not-allowed;
+}
