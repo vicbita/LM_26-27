@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <link rel="stylesheet" href="ASSETS/styles/styles-desk.css" media="(min-width: 769px)">
+    <link rel="stylesheet" href="ASSETS/styles/styles-phone.css" media="(max-width: 768px)">
+
+</head>
+<body>
+    
+    <header>
+        <div class="contenedor-header">
+            <!-- Título principal del sitio web -->
+            <h1>Biblioteca VB</h1>
+            <!-- Barra de navegación -->
+            <nav>
+                <ul class="menu">
+                    <!-- Cada elemento enlaza a una sección -->
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#acerca-de">Acerca de</a></li>
+                    <li><a href="#tabla-noticias">Noticias</a></li>
+                    <li><a href="#galeria">Libros</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección de bienvenida con imagen destacada -->
+    <section class="heroe">
+        <h2>Bienvenidos a La Biblioteca VB</h2>
+        <p>Tu fuente de información sobre los libros actuales de todos los tipos</p>
+        <!-- Espacio reservado para la imagen principal -->
+        <img src="ASSETS/img/img1.jpg" alt="Imagen destacada de la Biblioteca.">
+    </section>
+
+     <!-- Sección con tabla para mostrar noticias recientes -->
+    <section class="tabla-noticias">
+        <h3>Libros mas vendidos</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Genero</th>
+                    <th>Autor</th>
+                    <th>Titulo</th>
+                    <th>Premio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Novela</td>
+                    <td>Isabel Allende</td>
+                    <td>La hora antes del alba</td>
+                    <td>Premio Planeta 2026</td>
+                </tr>
+                <tr>
+                    <td>Misterio</td>
+                    <td>Dolores Redondo</td>
+                    <td>Todas las noches, todas las ciudades</td>
+                    <td>Mas vendido de genero </td>
+                </tr>
+                <tr>
+                    <td>Novela</td>
+                    <td>Cosamala</td>
+                    <td>Alana S. Portero</td>
+                    <td>Top 3</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="galeria" class="galeria">
+        <h3>Galería de Imágenes</h3>
+        <div class="contenedor-galeria">
+            <!-- Cada imagen tiene un espacio reservado para que añadas las rutas -->
+            <img src="ASSETS/img/img2.jpg" alt="Galería Imagen 1">
+            <img src="ASSETS/img/img3.jpg" alt="Galería Imagen 2">
+            <img src="ASSETS/img/img4.jpg" alt="Galería Imagen 3">
+        </div>
+    </section>
+
+     <footer>
+        <p>&copy; 2026 Biblioteca VB. Todos los derechos reservados.</p>
+    </footer>
+
+
+
+</body>
+</html>
